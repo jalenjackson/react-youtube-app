@@ -10,7 +10,7 @@ class SearchBar extends Component {
     render() {
         return (
             <div className="search-bar">
-                <a className="github-repo" href ="">git hub repo</a>
+                <a className="github-repo" href ="https://github.com/jalenjackson/react-youtube-app">git hub repo</a>
                <input value={this.state.term} onChange={e => this.onInputChange(e.target.value)} />
 
                 </div>
